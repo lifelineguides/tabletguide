@@ -4,548 +4,485 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Free Government Tablets in 2026 | FreeTablet.online</title>
-  <meta name="description" content="Free Government Tablets in 2026: the honest guide to Lifeline eligibility, real tablet offers from participating providers, scam warnings, and step-by-step application help." />
+  <title>Free Government Tablet Guide (2026) | Lifeline Tablet Guide</title>
+  <meta name="description" content="Free tablet guide for 2026. Learn what is real after ACP ended, how Lifeline eligibility works, how to apply safely, and how to avoid scams. Includes a quick eligibility checker and FAQs." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
 
-  <link rel="canonical" href="https://www.freetablet.online/" />
+  <link rel="canonical" href="https://lifelineguides.github.io/tabletguide/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Free Government Tablets in 2026 | FreeTablet.online" />
-  <meta property="og:description" content="Check eligibility, learn real programs that are active in 2026, and avoid scams. ACP ended June 2024. Lifeline is active." />
-  <meta property="og:url" content="https://www.freetablet.online/" />
+  <meta property="og:title" content="Free Government Tablet Guide (2026) | Lifeline Tablet Guide" />
+  <meta property="og:description" content="Free tablet guide for 2026. Lifeline eligibility, safe application steps, scam warnings, and quick checker." />
+  <meta property="og:url" content="https://lifelineguides.github.io/tabletguide/" />
 
-  <meta name="theme-color" content="#0b1220" />
+  <meta name="theme-color" content="#0b2d5b" />
 
   <style>
     :root{
-      --bg:#0b1220;
-      --panel:#0f1b33;
-      --panel2:#101a2f;
-      --card:#0f1a2f;
-      --text:#eaf0ff;
-      --muted:#b9c6e3;
-      --muted2:#93a4c9;
-      --line:rgba(255,255,255,.10);
-      --accent:#2dd4bf;
-      --accent2:#60a5fa;
-      --warn:#fbbf24;
-      --danger:#fb7185;
-      --ok:#34d399;
-      --shadow: 0 18px 60px rgba(0,0,0,.45);
+      --navy:#0b2d5b;
+      --navy2:#123a73;
+      --red:#c1121f;
+      --ink:#0f172a;
+      --muted:#475569;
+      --muted2:#64748b;
+      --bg:#f6f8fc;
+      --card:#ffffff;
+      --line:rgba(15,23,42,.10);
+      --soft:rgba(11,45,91,.06);
+      --soft2:rgba(193,18,31,.07);
+      --good:#0f766e;
+      --goodSoft:rgba(15,118,110,.08);
+      --warn:#b45309;
+      --warnSoft:rgba(180,83,9,.10);
+      --shadow: 0 18px 50px rgba(2,8,23,.10);
       --radius: 18px;
       --radius2: 14px;
-      --max: 1150px;
+      --max: 1120px;
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
     body{
       margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      background: radial-gradient(1200px 600px at 10% -10%, rgba(96,165,250,.20), transparent 55%),
-                  radial-gradient(900px 500px at 90% 0%, rgba(45,212,191,.15), transparent 50%),
-                  linear-gradient(180deg, #070c16, var(--bg) 25%, #070c16 120%);
-      color:var(--text);
-      line-height:1.65;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--ink);
+      background:
+        radial-gradient(900px 480px at 8% 0%, rgba(18,58,115,.14), transparent 55%),
+        radial-gradient(800px 420px at 92% 0%, rgba(193,18,31,.10), transparent 50%),
+        linear-gradient(180deg, #ffffff, var(--bg) 22%, #ffffff 140%);
+      line-height:1.7;
     }
     a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
     .skip{
       position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
     }
     .skip:focus{
-      left:12px; top:12px; width:auto; height:auto; padding:10px 12px; background:#fff; color:#000; border-radius:10px; z-index:9999;
+      left:12px; top:12px; width:auto; height:auto;
+      padding:10px 12px; border-radius:12px;
+      background:#fff; box-shadow:var(--shadow);
+      z-index:9999;
     }
-    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+
+    /* Top notice */
+    .notice{
+      background: linear-gradient(90deg, rgba(11,45,91,.10), rgba(193,18,31,.08));
+      border-bottom:1px solid var(--line);
+      font-size:13px;
+    }
+    .notice .row{
+      display:flex; gap:10px; align-items:center; justify-content:space-between;
+      padding:10px 0;
+      flex-wrap:wrap;
+    }
+    .badge{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:7px 10px;
+      border-radius:999px;
+      border:1px solid rgba(11,45,91,.16);
+      background: rgba(255,255,255,.65);
+      color:var(--navy);
+      font-weight:800;
+      white-space:nowrap;
+    }
+    .dot{
+      width:8px; height:8px; border-radius:999px;
+      background: var(--good);
+    }
+    .notice p{margin:0; color:var(--muted)}
+    .notice b{color:var(--ink)}
+
     header{
       position:sticky; top:0; z-index:50;
-      backdrop-filter: blur(12px);
-      background: rgba(11,18,32,.72);
+      background: rgba(255,255,255,.86);
+      backdrop-filter: blur(10px);
       border-bottom:1px solid var(--line);
     }
     .topbar{
       display:flex; align-items:center; justify-content:space-between;
-      gap:14px; padding:14px 0;
+      gap:14px; padding:12px 0;
+      flex-wrap:wrap;
     }
     .brand{
-      display:flex; align-items:center; gap:12px; text-decoration:none;
+      display:flex; align-items:center; gap:12px;
+      text-decoration:none;
+      min-width: 240px;
     }
     .logo{
-      width:44px; height:44px; border-radius:14px;
-      background: linear-gradient(135deg, rgba(45,212,191,.95), rgba(96,165,250,.95));
-      box-shadow: 0 12px 36px rgba(45,212,191,.18);
+      width:42px; height:42px; border-radius:14px;
       display:grid; place-items:center;
-      font-weight:800; color:#071023;
+      background: linear-gradient(135deg, var(--navy), var(--navy2));
+      color:#fff;
+      font-weight:900;
       letter-spacing:.5px;
+      box-shadow: 0 14px 34px rgba(11,45,91,.20);
     }
     .brand b{display:block; font-size:14px; letter-spacing:.2px}
     .brand span{display:block; font-size:12px; color:var(--muted2)}
     nav{
-      display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;
+      display:flex; gap:8px; flex-wrap:wrap;
+      justify-content:center;
+      flex:1;
     }
     nav a{
       text-decoration:none;
+      font-size:13px;
+      color:var(--muted);
       padding:8px 10px;
       border-radius:12px;
-      color:var(--muted);
       border:1px solid transparent;
-      font-size:13px;
-      white-space:nowrap;
     }
-    nav a:hover{border-color:var(--line); color:var(--text); background:rgba(255,255,255,.04)}
-    .cta{
-      display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end;
+    nav a:hover{
+      border-color: var(--line);
+      background: rgba(11,45,91,.05);
+      color: var(--ink);
+    }
+    .actions{
+      display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;
     }
     .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      gap:8px;
-      border-radius:14px;
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
       padding:10px 14px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
       text-decoration:none;
-      font-weight:700;
+      font-weight:900;
       font-size:13px;
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.04);
-      color:var(--text);
+      box-shadow: 0 10px 26px rgba(2,8,23,.05);
     }
-    .btn:hover{background:rgba(255,255,255,.07)}
+    .btn:hover{background: rgba(11,45,91,.04)}
     .btn.primary{
-      border-color: rgba(45,212,191,.45);
-      background: linear-gradient(135deg, rgba(45,212,191,.18), rgba(96,165,250,.14));
-      box-shadow: 0 16px 46px rgba(45,212,191,.14);
+      border-color: rgba(11,45,91,.22);
+      background: linear-gradient(135deg, rgba(11,45,91,.10), rgba(193,18,31,.06));
     }
-    .pill{
-      display:inline-flex; align-items:center; gap:8px;
-      padding:8px 10px; border-radius:999px;
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.04);
-      color:var(--muted);
-      font-size:12px;
-      white-space:nowrap;
+    .btn.red{
+      border-color: rgba(193,18,31,.20);
+      background: rgba(193,18,31,.06);
     }
-    .dot{width:8px; height:8px; border-radius:999px; background:var(--ok)}
-    .hero{
-      padding:34px 0 12px;
-    }
+
+    /* Hero */
+    .hero{padding:22px 0 10px}
     .heroGrid{
-      display:grid; grid-template-columns: 1.15fr .85fr; gap:18px;
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap:14px;
       align-items:stretch;
     }
     @media (max-width: 980px){ .heroGrid{grid-template-columns:1fr} }
-    .panel{
+    .card{
+      background: var(--card);
       border:1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
-      border-radius:var(--radius);
+      border-radius: var(--radius);
       box-shadow: var(--shadow);
       overflow:hidden;
     }
-    .panelPad{padding:22px}
+    .pad{padding:18px}
     h1{
       margin:0 0 10px;
-      font-size: clamp(28px, 3.2vw, 44px);
+      font-size: clamp(26px, 3vw, 42px);
       line-height:1.12;
       letter-spacing:-.02em;
     }
     .lead{
-      margin:0 0 14px;
-      color:var(--muted);
+      margin:0 0 12px;
+      color: var(--muted);
       font-size:15px;
     }
-    .alert{
-      border:1px solid rgba(251,191,36,.32);
-      background: rgba(251,191,36,.08);
-      border-radius: 16px;
-      padding:12px 12px;
-      color: #fff3c4;
+    .pillRow{
+      display:flex; gap:8px; flex-wrap:wrap; margin-top:12px;
+    }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:8px 10px;
+      border-radius:999px;
+      background: var(--soft);
+      border:1px solid rgba(11,45,91,.12);
+      font-size:12px;
+      color: var(--navy);
+      font-weight:800;
+      white-space:nowrap;
+    }
+    .pill.red{
+      background: var(--soft2);
+      border-color: rgba(193,18,31,.14);
+      color: var(--red);
+    }
+    .callout{
+      margin-top:14px;
+      border:1px solid rgba(180,83,9,.18);
+      background: var(--warnSoft);
+      border-radius: var(--radius2);
+      padding:12px;
+      color: #7c2d12;
       font-size:13px;
     }
-    .alert b{color:#fff}
-    .metaRow{
-      display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center;
-    }
+    .callout b{color:#7c2d12}
     .kicker{
       display:inline-flex; align-items:center; gap:8px;
-      border:1px solid rgba(96,165,250,.30);
-      background: rgba(96,165,250,.10);
-      padding:8px 10px; border-radius:999px;
-      font-size:12px; color:#dbeafe;
-    }
-    .kicker i{
-      width:10px; height:10px; border-radius:999px; background:var(--accent2); display:inline-block;
-    }
-    .heroActions{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
-    .heroActions .btn{padding:12px 14px}
-    .asideTitle{
-      margin:0;
-      font-size:16px;
-      letter-spacing:.2px;
-    }
-    .asideSub{margin:6px 0 0; color:var(--muted2); font-size:13px}
-    .miniCards{
-      margin-top:14px;
-      display:grid; grid-template-columns:1fr; gap:10px;
-    }
-    .mini{
-      border:1px solid var(--line);
-      background: rgba(15,26,47,.55);
-      border-radius: 16px;
-      padding:12px;
-    }
-    .mini b{display:block; font-size:13px}
-    .mini span{display:block; margin-top:4px; font-size:12px; color:var(--muted)}
-    main{padding:16px 0 60px}
-    section{margin-top:18px}
-    .sectionHead{
-      display:flex; align-items:flex-end; justify-content:space-between; gap:14px; flex-wrap:wrap;
+      padding:8px 10px;
+      border-radius:999px;
+      background: rgba(11,45,91,.07);
+      border:1px solid rgba(11,45,91,.12);
+      color: var(--navy);
+      font-size:12px;
+      font-weight:900;
       margin-bottom:10px;
+      width:fit-content;
     }
-    h2{
-      margin:0;
-      font-size:22px;
-      letter-spacing:-.01em;
-    }
-    .subhead{margin:0; color:var(--muted2); font-size:13px}
-    .grid2{display:grid; grid-template-columns: 1fr 1fr; gap:14px}
-    @media (max-width: 900px){ .grid2{grid-template-columns:1fr} }
-    .card{
-      border:1px solid var(--line);
-      background: rgba(15,26,47,.50);
-      border-radius: var(--radius);
-      padding:18px;
-    }
-    .card h3{margin:0 0 8px; font-size:16px}
-    .card p{margin:0; color:var(--muted)}
-    .list{
-      margin:10px 0 0; padding:0; list-style:none;
-      display:grid; gap:8px;
-    }
-    .list li{
-      display:flex; gap:10px; align-items:flex-start;
-      color:var(--muted);
-    }
-    .tick{
-      width:18px; height:18px; border-radius:6px;
-      background: rgba(52,211,153,.18);
-      border:1px solid rgba(52,211,153,.40);
-      display:grid; place-items:center;
-      flex:0 0 18px;
-      margin-top:2px;
-      color:#bbf7d0;
-      font-size:12px;
-      font-weight:900;
-    }
-    .warnIcon{
-      width:18px; height:18px; border-radius:6px;
-      background: rgba(251,113,133,.14);
-      border:1px solid rgba(251,113,133,.40);
-      display:grid; place-items:center;
-      flex:0 0 18px;
-      margin-top:2px;
-      color:#fecdd3;
-      font-size:12px;
-      font-weight:900;
-    }
-    .divider{height:1px; background:var(--line); margin:14px 0}
-    .note{
-      font-size:12px; color:var(--muted2);
-      border-left:3px solid rgba(96,165,250,.45);
-      padding:8px 10px; background: rgba(96,165,250,.08);
-      border-radius: 12px;
+    .kFlag{
+      width:12px; height:12px; border-radius:4px;
+      background: linear-gradient(180deg, var(--navy), var(--red));
+      display:inline-block;
     }
 
     /* Checker */
     .checker{
-      border:1px solid rgba(45,212,191,.22);
-      background: linear-gradient(180deg, rgba(45,212,191,.08), rgba(15,26,47,.50));
-      border-radius: var(--radius);
-      overflow:hidden;
+      border-top:1px solid var(--line);
+      background:
+        radial-gradient(680px 260px at 0% 0%, rgba(11,45,91,.08), transparent 55%),
+        radial-gradient(520px 220px at 100% 0%, rgba(193,18,31,.06), transparent 55%),
+        #ffffff;
     }
     .checkerTop{
-      padding:16px 18px;
-      display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;
+      display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
+      padding:14px 16px;
       border-bottom:1px solid var(--line);
     }
-    .checkerTop b{font-size:14px}
-    .progressWrap{display:flex; align-items:center; gap:10px; color:var(--muted2); font-size:12px}
+    .checkerTop b{font-size:13px}
+    .progress{
+      display:flex; align-items:center; gap:10px; color:var(--muted2); font-size:12px;
+    }
     .bar{
-      width:170px; max-width:50vw; height:10px; border-radius:999px;
-      background: rgba(255,255,255,.07);
-      border:1px solid rgba(255,255,255,.10);
+      width:160px; max-width:55vw;
+      height:10px; border-radius:999px;
+      background: rgba(2,8,23,.06);
+      border:1px solid rgba(2,8,23,.08);
       overflow:hidden;
     }
     .bar > div{
       height:100%;
       width:0%;
-      background: linear-gradient(90deg, rgba(45,212,191,.95), rgba(96,165,250,.95));
+      background: linear-gradient(90deg, var(--navy), var(--red));
       border-radius:999px;
-      transition:width .25s ease;
+      transition: width .25s ease;
     }
-    .checkerBody{padding:18px}
-    .q{
-      margin:0;
-      font-size:16px;
-      letter-spacing:-.01em;
-    }
+    .q{margin:0; font-size:16px; letter-spacing:-.01em}
     .qHelp{margin:8px 0 0; color:var(--muted); font-size:13px}
     .answers{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
     .ansBtn{
       cursor:pointer;
       border-radius:14px;
       padding:10px 14px;
-      border:1px solid rgba(255,255,255,.16);
-      background: rgba(255,255,255,.04);
-      color:var(--text);
-      font-weight:800;
+      border:1px solid rgba(2,8,23,.14);
+      background:#fff;
+      color:var(--ink);
+      font-weight:900;
       font-size:13px;
     }
-    .ansBtn:hover{background:rgba(255,255,255,.07)}
+    .ansBtn:hover{background: rgba(11,45,91,.04)}
     .ansBtn.yes{
-      border-color: rgba(52,211,153,.35);
-      background: rgba(52,211,153,.10);
+      border-color: rgba(15,118,110,.26);
+      background: var(--goodSoft);
+      color: var(--good);
     }
     .ansBtn.no{
-      border-color: rgba(251,113,133,.35);
-      background: rgba(251,113,133,.10);
+      border-color: rgba(193,18,31,.20);
+      background: rgba(193,18,31,.06);
+      color: var(--red);
     }
-    .checkerNav{
-      display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;
-      align-items:center; justify-content:space-between;
+    .navRow{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px; flex-wrap:wrap;
+      margin-top:14px;
     }
     .linkBtn{
       cursor:pointer;
       border-radius:14px;
       padding:10px 14px;
-      border:1px solid rgba(255,255,255,.16);
-      background: rgba(255,255,255,.03);
-      color:var(--muted);
-      font-weight:800;
+      border:1px solid rgba(2,8,23,.14);
+      background: rgba(2,8,23,.02);
+      color: var(--muted);
+      font-weight:900;
       font-size:13px;
     }
-    .linkBtn:hover{background:rgba(255,255,255,.06); color:var(--text)}
+    .linkBtn:hover{background: rgba(11,45,91,.05); color: var(--ink)}
     .result{
-      border:1px solid rgba(96,165,250,.26);
-      background: rgba(96,165,250,.08);
-      border-radius: 16px;
-      padding:14px;
       margin-top:12px;
+      border:1px solid rgba(11,45,91,.16);
+      background: rgba(11,45,91,.06);
+      border-radius: var(--radius2);
+      padding:12px;
     }
-    .result h3{margin:0 0 6px; font-size:16px}
-    .result p{margin:0; color:var(--muted)}
+    .result h3{margin:0 0 6px; font-size:15px}
+    .result p{margin:0; color:var(--muted); font-size:13px}
     .result .btnRow{margin-top:12px; display:flex; gap:10px; flex-wrap:wrap}
-    .small{
-      font-size:12px; color:var(--muted2); margin-top:10px
+    .miniNote{margin-top:10px; font-size:12px; color:var(--muted2)}
+
+    /* Sections */
+    main{padding:10px 0 56px}
+    section{margin-top:16px}
+    .head{
+      display:flex; align-items:flex-end; justify-content:space-between; gap:14px; flex-wrap:wrap;
+      margin-bottom:10px;
     }
+    h2{margin:0; font-size:22px; letter-spacing:-.01em}
+    .sub{margin:0; color:var(--muted2); font-size:13px}
+    .grid2{display:grid; grid-template-columns: 1fr 1fr; gap:14px}
+    @media (max-width: 900px){ .grid2{grid-template-columns:1fr} }
+    .box{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 12px 30px rgba(2,8,23,.06);
+      padding:16px;
+    }
+    .box h3{margin:0 0 8px; font-size:16px}
+    .box p{margin:0; color:var(--muted)}
+    .list{margin:10px 0 0; padding:0; list-style:none; display:grid; gap:8px}
+    .list li{display:flex; gap:10px; align-items:flex-start; color:var(--muted)}
+    .icon{
+      width:18px; height:18px; border-radius:6px;
+      border:1px solid rgba(15,118,110,.22);
+      background: var(--goodSoft);
+      color: var(--good);
+      display:grid; place-items:center;
+      font-weight:900;
+      font-size:12px;
+      flex:0 0 18px;
+      margin-top:2px;
+    }
+    .icon.warn{
+      border-color: rgba(180,83,9,.22);
+      background: var(--warnSoft);
+      color: var(--warn);
+    }
+    .icon.bad{
+      border-color: rgba(193,18,31,.20);
+      background: rgba(193,18,31,.06);
+      color: var(--red);
+    }
+    .rule{
+      margin-top:12px;
+      border-left:4px solid rgba(11,45,91,.30);
+      background: rgba(11,45,91,.06);
+      border-radius: 12px;
+      padding:10px 12px;
+      font-size:13px;
+      color: var(--muted);
+    }
+    .rule b{color:var(--ink)}
+    .divider{height:1px; background: var(--line); margin:14px 0}
 
     /* FAQ */
     details{
+      background:#fff;
       border:1px solid var(--line);
-      background: rgba(15,26,47,.45);
       border-radius: 16px;
-      padding:12px 12px;
+      padding:12px;
+      box-shadow: 0 10px 22px rgba(2,8,23,.05);
     }
     details + details{margin-top:10px}
     summary{
       cursor:pointer;
-      font-weight:800;
+      font-weight:900;
       list-style:none;
     }
     summary::-webkit-details-marker{display:none}
     details p{margin:10px 0 0; color:var(--muted)}
+
+    /* Footer */
     footer{
       border-top:1px solid var(--line);
-      background: rgba(7,12,22,.65);
-      padding:26px 0 34px;
+      background: #ffffff;
+      padding:24px 0 34px;
     }
-    .footGrid{
-      display:grid; grid-template-columns: 1.2fr .8fr; gap:18px; align-items:start;
+    .foot{
+      display:grid; grid-template-columns: 1.2fr .8fr; gap:16px;
+      align-items:start;
     }
-    @media (max-width: 900px){ .footGrid{grid-template-columns:1fr} }
-    .footTitle{margin:0 0 6px; font-size:14px}
-    .footText{margin:0; color:var(--muted); font-size:13px}
-    .footLinks{
+    @media (max-width: 900px){ .foot{grid-template-columns:1fr} }
+    .foot h3{margin:0 0 6px; font-size:14px}
+    .foot p{margin:0; color:var(--muted); font-size:13px}
+    .links{
       display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;
     }
-    .footLinks a{
+    .links a{
       text-decoration:none;
-      border:1px solid var(--line);
-      background: rgba(255,255,255,.03);
-      border-radius: 14px;
+      background: rgba(11,45,91,.04);
+      border:1px solid rgba(11,45,91,.10);
       padding:10px 12px;
-      color:var(--muted);
+      border-radius: 14px;
+      font-weight:900;
       font-size:13px;
+      color: var(--navy);
     }
-    .footLinks a:hover{color:var(--text); background:rgba(255,255,255,.06)}
+    .links a:hover{background: rgba(11,45,91,.06)}
     .legal{
-      margin-top:14px;
-      color:var(--muted2);
-      font-size:12px;
-      border:1px solid rgba(255,255,255,.10);
-      background: rgba(255,255,255,.03);
+      margin-top:12px;
+      border:1px solid var(--line);
+      background: rgba(2,8,23,.02);
       border-radius: 16px;
       padding:12px;
-    }
-    .copyright{
-      margin-top:14px;
-      color:var(--muted2);
+      color: var(--muted2);
       font-size:12px;
     }
-    .badgeRow{
-      display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;
-    }
-    .badge{
-      font-size:12px;
-      padding:8px 10px;
-      border-radius: 999px;
-      border:1px solid rgba(255,255,255,.14);
-      background: rgba(255,255,255,.03);
-      color:var(--muted);
-      white-space:nowrap;
-    }
+    .copy{margin-top:12px; color:var(--muted2); font-size:12px}
   </style>
 
-  <!-- JSON-LD Schemas -->
+  <!-- Schemas -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
+    "@context":"https://schema.org",
+    "@graph":[
       {
-        "@type": "Organization",
-        "@id": "https://www.freetablet.online/#org",
-        "name": "FreeTablet.online",
-        "url": "https://www.freetablet.online/",
-        "description": "An independent informational resource that helps consumers understand legitimate programs and provider offers related to free and discounted government tablet access in 2026."
+        "@type":"Organization",
+        "@id":"https://lifelineguides.github.io/tabletguide/#org",
+        "name":"Lifeline Guides",
+        "url":"https://lifelineguides.github.io/tabletguide/",
+        "description":"An independent informational publisher focused on scam-safe guidance for Lifeline-based affordability pathways and tablet access in 2026."
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.freetablet.online/#website",
-        "url": "https://www.freetablet.online/",
-        "name": "FreeTablet.online",
-        "publisher": { "@id": "https://www.freetablet.online/#org" },
-        "inLanguage": "en"
+        "@type":"WebSite",
+        "@id":"https://lifelineguides.github.io/tabletguide/#website",
+        "url":"https://lifelineguides.github.io/tabletguide/",
+        "name":"Lifeline Tablet Guide",
+        "publisher":{"@id":"https://lifelineguides.github.io/tabletguide/#org"},
+        "inLanguage":"en"
       },
       {
-        "@type": "WebPage",
-        "@id": "https://www.freetablet.online/#webpage",
-        "url": "https://www.freetablet.online/",
-        "name": "Free Government Tablets in 2026",
-        "isPartOf": { "@id": "https://www.freetablet.online/#website" },
-        "about": [
-          { "@type": "Thing", "name": "Lifeline program" },
-          { "@type": "Thing", "name": "Free government tablet" },
-          { "@type": "Thing", "name": "Low income internet discount" }
-        ],
-        "publisher": { "@id": "https://www.freetablet.online/#org" },
-        "inLanguage": "en"
+        "@type":"WebPage",
+        "@id":"https://lifelineguides.github.io/tabletguide/#webpage",
+        "url":"https://lifelineguides.github.io/tabletguide/",
+        "name":"Free Government Tablet Guide (2026)",
+        "isPartOf":{"@id":"https://lifelineguides.github.io/tabletguide/#website"},
+        "publisher":{"@id":"https://lifelineguides.github.io/tabletguide/#org"},
+        "inLanguage":"en",
+        "dateModified":"2026-03-04"
       },
       {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.freetablet.online/#breadcrumbs",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.freetablet.online/" }
+        "@type":"HowTo",
+        "@id":"https://lifelineguides.github.io/tabletguide/#howto",
+        "name":"How to apply safely for a free or discounted tablet in 2026",
+        "description":"A step by step guide for confirming the real program path after ACP ended, preparing documents, verifying eligibility, choosing a provider, and avoiding scams.",
+        "totalTime":"PT20M",
+        "step":[
+          {"@type":"HowToStep","name":"Confirm the 2026 program path","text":"Understand that ACP ended in June 2024. In 2026, Lifeline is the main active federal affordability program for phone or internet service. Device offers depend on provider inventory and local support."},
+          {"@type":"HowToStep","name":"Gather clear proof documents","text":"Prepare ID and eligibility proof through program participation or income documentation. Make sure documents are readable and show your name clearly."},
+          {"@type":"HowToStep","name":"Verify eligibility through official processes","text":"Use official verification steps or provider-assisted enrollment that still follows recognized verification rules."},
+          {"@type":"HowToStep","name":"Choose a provider that serves your area","text":"Select a participating provider for your zip code. Review terms for service, device availability, and any disclosed one-time charges."},
+          {"@type":"HowToStep","name":"Stay scam-safe","text":"Never share your EBT PIN or any bank PIN. Avoid offers that promise a free iPad for everyone or demand payment before verification."}
         ]
       },
       {
-        "@type": "HowTo",
-        "@id": "https://www.freetablet.online/#howto",
-        "name": "How to apply for a free or discounted government tablet in 2026",
-        "description": "A step by step process to check Lifeline eligibility, prepare documents, apply through the National Verifier or a participating provider, and avoid scams.",
-        "totalTime": "PT20M",
-        "step": [
-          { "@type": "HowToStep", "name": "Confirm the program path", "text": "Understand that ACP ended in June 2024. In 2026, Lifeline is the main active federal discount program. Tablet offers are usually provided by participating providers or local partners." },
-          { "@type": "HowToStep", "name": "Gather your proof", "text": "Prepare identity documents and proof of eligibility such as program participation or income documentation. Make sure documents are clear and current." },
-          { "@type": "HowToStep", "name": "Complete eligibility verification", "text": "Verify eligibility using the official National Verifier process or a provider assisted flow where available." },
-          { "@type": "HowToStep", "name": "Choose a participating provider", "text": "Pick a provider that serves your state and offers service plus possible device options. Device inventory changes and may involve a small one time fee depending on provider terms." },
-          { "@type": "HowToStep", "name": "Keep your benefit active", "text": "Use your Lifeline supported service regularly. Many providers require at least one use in a 30 day period to keep service active." }
+        "@type":"FAQPage",
+        "@id":"https://lifelineguides.github.io/tabletguide/#faq",
+        "mainEntity":[
+          {"@type":"Question","name":"Is ACP still active in 2026?","acceptedAnswer":{"@type":"Answer","text":"No. ACP ended in June 2024. In 2026, Lifeline is the main active federal affordability program. Tablet offers, when available, come from participating providers or local partners and are not ACP benefits."}},
+          {"@type":"Question","name":"What does “free tablet” mean in 2026?","acceptedAnswer":{"@type":"Answer","text":"It usually means you qualify for an affordability pathway like Lifeline and a provider or local partner may offer a tablet at no cost or reduced cost depending on inventory and terms. The federal government does not mail tablets directly to every low-income household."}},
+          {"@type":"Question","name":"Do legitimate programs ask for an EBT PIN?","acceptedAnswer":{"@type":"Answer","text":"No. Legitimate programs and providers do not need your EBT PIN. Never share it."}},
+          {"@type":"Question","name":"Are free iPads guaranteed?","acceptedAnswer":{"@type":"Answer","text":"No. iPads are not guaranteed. Promises like “free iPad for everyone” are a common scam sign."}}
         ]
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "@id": "https://www.freetablet.online/#faq",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Is ACP still active in 2026?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. The Affordable Connectivity Program ended in June 2024. In 2026, Lifeline is the main active federal discount program. Some providers and local partners may still offer tablet related deals, but they are not ACP benefits."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What does “free government tablet” really mean in 2026?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It usually means a provider or local partner may offer a tablet at no cost or at a reduced cost when you qualify for an active benefit pathway like Lifeline, public housing digital inclusion support, or certain veteran telehealth support. The federal government does not mail tablets directly to everyone who is low income."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I get both a free phone and a free government tablet?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Lifeline is generally limited to one benefit per household. Some providers may offer different device options over time, but you should expect one primary Lifeline supported service line per household and device availability based on provider terms."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are free iPads available through government programs?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "iPads are not guaranteed. If you see “free iPad for everyone” promises, treat them as a major scam signal. Most offers, when they exist, are limited, refurbished, or tied to special promotions rather than a standard benefit."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do legitimate programs ask for my EBT PIN?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Legitimate programs and participating providers do not need your EBT PIN, debit PIN, or banking PIN to confirm eligibility. Never share that information."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does approval and shipping take?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Time varies by provider, state, and document quality. Many applicants see review and fulfillment within about 7 to 10 business days after eligibility is confirmed, but it can be shorter or longer."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What documents do I usually need?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most applicants need proof of identity and proof of eligibility through an approved program or income documentation. Requirements can vary by situation and provider, so use the official verifier and provider instructions for your state."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do I need to keep using the service after I get approved?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Providers often require at least one use within a 30 day period to keep service active. Inactive lines can be de enrolled under provider and program rules."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I switch providers later?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "In many cases you can transfer your Lifeline benefit to another provider, but there can be timing rules and eligibility confirmations. Always review the provider transfer rules before switching."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are there hidden fees?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Eligibility checking should be free. Some device offers may involve a one time device charge, shipping, or an upgrade fee depending on provider terms and inventory. Always read the full terms before submitting documents."
-        }
       }
     ]
   }
@@ -555,29 +492,38 @@
 <body>
   <a class="skip" href="#content">Skip to content</a>
 
+  <div class="notice" role="note" aria-label="Program status notice">
+    <div class="wrap">
+      <div class="row">
+        <span class="badge"><span class="dot" aria-hidden="true"></span> Updated for 2026</span>
+        <p><b>ACP ended June 2024.</b> In 2026, the real federal affordability path is <b>Lifeline</b>. Scam-safe guide below.</p>
+      </div>
+    </div>
+  </div>
+
   <header aria-label="Site header">
     <div class="wrap">
       <div class="topbar">
-        <a class="brand" href="#top" aria-label="FreeTablet.online home">
-          <div class="logo" aria-hidden="true">FT</div>
+        <a class="brand" href="#top" aria-label="Home">
+          <div class="logo" aria-hidden="true">LG</div>
           <div>
-            <b>FreeTablet.online</b>
-            <span>Updated for 2026</span>
+            <b>Lifeline Tablet Guide</b>
+            <span>One-page USA-focused guide for 2026</span>
           </div>
         </a>
 
         <nav aria-label="Primary navigation">
-          <a href="#programs">Programs</a>
+          <a href="#checker">Checker</a>
+          <a href="#truth">2026 Truth</a>
           <a href="#eligibility">Eligibility</a>
-          <a href="#states">States</a>
           <a href="#apply">How to Apply</a>
+          <a href="#scams">Scam Warning</a>
           <a href="#faq">FAQ</a>
         </nav>
 
-        <div class="cta" aria-label="Header actions">
-          <span class="pill"><span class="dot" aria-hidden="true"></span> Lifeline active in 2026</span>
+        <div class="actions" aria-label="Header actions">
           <a class="btn primary" href="#checker">Check Eligibility</a>
-          <a class="btn" href="#apply">Apply Now</a>
+          <a class="btn red" href="https://www.freetablet.online/" target="_blank" rel="noopener">Apply for a free tablet</a>
         </div>
       </div>
     </div>
@@ -586,682 +532,421 @@
   <main id="content" class="wrap" role="main">
     <div id="top" class="hero" aria-label="Hero section">
       <div class="heroGrid">
-        <div class="panel">
-          <div class="panelPad">
-            <div class="kicker"><i aria-hidden="true"></i> Updated for March 2026</div>
-            <h1>Free Government Tablets in 2026</h1>
+        <div class="card">
+          <div class="pad">
+            <div class="kicker"><span class="kFlag" aria-hidden="true"></span> USA 2026 Guide</div>
+            <h1>Free Tablet and Free Government Tablet in 2026</h1>
             <p class="lead">
-              If you are searching for a <strong>free tablet</strong> or a <strong>free government tablet</strong>, you deserve a clear answer, not confusing promises.
-              This one-page guide explains what is real in 2026, what is outdated, and how to apply the right way using legitimate pathways like Lifeline and verified local support.
+              This page exists for one reason: to stop people from wasting time on outdated ACP promises and fake social media ads.
+              If you are searching for a <a href="https://www.freetablet.online/" target="_blank" rel="noopener"><b>free tablet</b></a>, the safest way is to understand what is real in 2026, what is not, and how legitimate approval actually works.
+            </p>
+            <p class="lead">
+              The truth is simple. The federal government is not mailing tablets to everyone who is low income. In 2026, the reliable nationwide affordability program is Lifeline, which supports phone or internet service for eligible households. Tablet offers, when available, are typically provider offers or local partner support that sit on top of verified eligibility.
             </p>
 
-            <div class="alert" role="note" aria-label="Important program status">
-              <b>Important:</b> The Affordable Connectivity Program (ACP) ended in June 2024. In 2026, the main active federal discount program is <b>Lifeline</b>.
-              Tablet offers are typically provided by participating providers or local partners, and inventory changes.
+            <div class="pillRow" aria-label="Key highlights">
+              <span class="pill">No EBT PIN ever</span>
+              <span class="pill">Verification first</span>
+              <span class="pill red">Avoid free iPad scams</span>
+              <span class="pill">One benefit per household rules matter</span>
             </div>
 
-            <div class="metaRow" aria-label="Trust signals">
-              <span class="pill">Scam warning first</span>
-              <span class="pill">No EBT PIN ever required</span>
-              <span class="pill">Rule-based guidance</span>
-              <span class="pill">One page, step by step</span>
+            <div class="callout" aria-label="Safety callout">
+              <b>Scam safety rule:</b> A real application never needs your EBT PIN, bank PIN, or debit PIN. Any page asking for that is not legitimate.
             </div>
-
-            <div class="heroActions" aria-label="Hero actions">
-              <a class="btn primary" href="#checker">100% Free Eligibility Check</a>
-              <a class="btn" href="#apply">Start Application Checklist</a>
-            </div>
-
-            <div class="divider"></div>
-
-            <p class="lead" style="margin:0">
-              This website is an <strong>independent informational resource</strong>. We do not approve benefits, issue devices, or guarantee inventory.
-              We help you understand legitimate options in 2026, what documents usually work, and how to avoid scams that target SNAP and Medicaid households.
-            </p>
           </div>
         </div>
 
-        <aside class="panel" aria-label="Quick facts">
-          <div class="panelPad">
-            <p class="asideTitle">Quick Facts</p>
-            <p class="asideSub">Key things to know before you apply</p>
+        <div class="card">
+          <div class="pad">
+            <div class="head" style="margin-bottom:8px">
+              <div>
+                <h2 style="font-size:18px; margin:0">Free Eligibility Checker</h2>
+                <p class="sub" style="margin-top:4px">Fast estimate in under 60 seconds</p>
+              </div>
+              <span class="badge" style="font-size:12px"><span class="dot" aria-hidden="true"></span> Private</span>
+            </div>
+          </div>
 
-            <div class="miniCards" role="list">
-              <div class="mini" role="listitem">
-                <b>Lifeline is active in 2026</b>
-                <span>Lifeline can lower the monthly cost of phone or internet service for eligible households.</span>
+          <div id="checker" class="checker" role="region" aria-label="Eligibility checker tool">
+            <div class="checkerTop">
+              <b>Question <span id="qNum">1</span> of 5</b>
+              <div class="progress" aria-label="Progress">
+                <span id="pct">0%</span>
+                <div class="bar" aria-hidden="true"><div id="barFill"></div></div>
               </div>
-              <div class="mini" role="listitem">
-                <b>ACP has ended</b>
-                <span>ACP is not available for new benefits as of June 2024. Be careful with websites still claiming it is active.</span>
+            </div>
+
+            <div class="pad">
+              <p class="q" id="qText">Does anyone in your household participate in SNAP (Food Stamps) or Medicaid?</p>
+              <p class="qHelp" id="qHelp">
+                Program participation is a common eligibility signal for Lifeline-based affordability paths in 2026.
+              </p>
+
+              <div class="answers" aria-label="Answer choices">
+                <button class="ansBtn yes" type="button" onclick="answer(true)">Yes</button>
+                <button class="ansBtn no" type="button" onclick="answer(false)">No</button>
               </div>
-              <div class="mini" role="listitem">
-                <b>Processing time varies</b>
-                <span>Approval and fulfillment depend on provider, state, and document quality. Many applications move faster when documents are clear.</span>
+
+              <div class="navRow" aria-label="Checker navigation">
+                <button class="linkBtn" type="button" onclick="back()" id="backBtn" disabled>Back</button>
+                <button class="linkBtn" type="button" onclick="resetChecker()">Reset</button>
               </div>
-              <div class="mini" role="listitem">
-                <b>$0 to check eligibility</b>
-                <span>Eligibility checking is free. Device fees vary by provider terms and inventory and should be disclosed upfront.</span>
-              </div>
-              <div class="mini" role="listitem">
-                <b>Tribal lands may receive a higher discount</b>
-                <span>Tribal Lifeline support can be higher than the standard discount, depending on eligibility rules.</span>
-              </div>
-              <div class="mini" role="listitem">
-                <b>30-day usage rule matters</b>
-                <span>Providers often require at least one use within a 30 day period to keep service active.</span>
+
+              <div class="result" id="resultBox" style="display:none" aria-label="Checker results">
+                <h3 id="rTitle">Result</h3>
+                <p id="rText"></p>
+                <div class="btnRow">
+                  <a class="btn primary" href="#apply">See How to Apply</a>
+                  <a class="btn red" href="https://www.freetablet.online/" target="_blank" rel="noopener">Apply for a free tablet</a>
+                </div>
+                <div class="miniNote" id="rNote"></div>
               </div>
             </div>
           </div>
-        </aside>
+        </div>
       </div>
     </div>
 
-    <section id="checker" aria-label="Eligibility checker">
-      <div class="sectionHead">
+    <section id="truth" aria-label="2026 truth section">
+      <div class="head">
         <div>
-          <h2>Free Eligibility Checker</h2>
-          <p class="subhead">Answer a few quick questions. Takes under 60 seconds.</p>
+          <h2>The 2026 Truth About “Free Government Tablets”</h2>
+          <p class="sub">Clear explanation, no hype, no fake guarantees</p>
         </div>
-        <span class="pill">Privacy-friendly: results are shown on this page</span>
       </div>
 
-      <div class="checker" role="region" aria-label="Eligibility checker tool">
-        <div class="checkerTop">
-          <b>Question <span id="qNum">1</span> of 5</b>
-          <div class="progressWrap" aria-label="Progress">
-            <span id="qLabel">Start</span>
-            <div class="bar" aria-hidden="true"><div id="barFill"></div></div>
-            <span id="pct">0%</span>
-          </div>
+      <div class="box">
+        <p class="lead" style="margin:0">
+          People in the United States search “free government tablet” because they are trying to solve a real problem. A student needs a device for homework.
+          A senior needs telehealth access. A parent needs a screen for school portals and job applications. A veteran needs a reliable way to stay connected.
+          Those needs are real. The confusion comes from outdated marketing that still talks about ACP as if it is alive.
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="lead" style="margin:0">
+          ACP ended in June 2024. That change created a new environment where scams spread faster than facts.
+          In 2026, the safest way to approach a free tablet search is to treat it like a verified benefits process.
+          That means you start with eligibility and verification. Then you choose a provider or a local partner path that is actually available in your zip code.
+          Then you confirm the terms before you upload documents.
+        </p>
+
+        <div class="rule">
+          <b>Reality check:</b> Lifeline is an affordability program for phone or internet service. A tablet, if offered, is typically a provider offer or a local partner offer based on inventory and program rules.
         </div>
 
-        <div class="checkerBody">
-          <p class="q" id="questionText">Does anyone in your household participate in SNAP (Food Stamps) or Medicaid?</p>
-          <p class="qHelp" id="questionHelp">
-            Many applicants qualify because they already receive a benefits program that meets Lifeline eligibility rules.
-            This question helps estimate your likelihood.
-          </p>
+        <div class="divider"></div>
 
-          <div class="answers" aria-label="Answer choices">
-            <button class="ansBtn yes" type="button" onclick="answer(true)">Yes</button>
-            <button class="ansBtn no" type="button" onclick="answer(false)">No</button>
-          </div>
+        <p class="lead" style="margin:0">
+          A legitimate path in 2026 usually looks like this:
+          You qualify through a recognized eligibility reason, such as participation in a qualifying assistance program or income qualification.
+          You verify eligibility through an official process or a provider-assisted enrollment that follows recognized verification rules.
+          After verification, a provider may offer a tablet option, a discounted tablet option, or a service-first option with device upgrades based on inventory.
+          You will not see the same device options in every state, and you will not see the same options every month.
+        </p>
 
-          <div class="checkerNav" aria-label="Checker navigation">
-            <button class="linkBtn" type="button" onclick="back()" id="backBtn" disabled>Back</button>
-            <button class="linkBtn" type="button" onclick="resetChecker()">Reset</button>
-          </div>
+        <div class="divider"></div>
 
-          <div class="result" id="resultBox" style="display:none" aria-label="Checker results">
-            <h3 id="resultTitle">Result</h3>
-            <p id="resultText"></p>
-            <div class="btnRow">
-              <a class="btn primary" href="#apply">Go to the Application Steps</a>
-              <a class="btn" href="#scams">Read Scam Warnings</a>
-            </div>
-            <div class="small" id="resultNote"></div>
-          </div>
-        </div>
+        <p class="lead" style="margin:0">
+          When people say they received a free tablet, they usually mean one of these outcomes:
+          They received a basic Android tablet as part of a provider program that was available in their area at that time.
+          They received a discounted tablet where the device cost was reduced and terms were clearly disclosed.
+          They received a tablet through a local digital inclusion program tied to public housing, a school-related partner, a nonprofit partner, or a healthcare-related access pathway.
+          All of these paths can be real. The key difference is verification and transparency.
+        </p>
       </div>
     </section>
 
-    <section id="programs" aria-label="Programs active in 2026">
-      <div class="sectionHead">
+    <section id="eligibility" aria-label="Eligibility section">
+      <div class="head">
         <div>
-          <h2>Available Programs That Can Help in 2026</h2>
-          <p class="subhead">Real pathways that are active, plus how tablet offers usually work</p>
+          <h2>Eligibility in 2026: Who Often Qualifies</h2>
+          <p class="sub">Program-based and income-based pathways explained</p>
         </div>
       </div>
 
       <div class="grid2">
-        <div class="card">
-          <h3>Main 2026 option: Lifeline</h3>
+        <div class="box">
+          <h3>Program-based eligibility</h3>
           <p>
-            Lifeline is the primary active federal program in 2026 that supports affordable communications for eligible households.
-            Lifeline is a <strong>monthly service discount</strong>. It does not promise a specific tablet model.
-            However, many participating providers may offer tablet-related deals or device bundles as part of their service offerings, depending on inventory and terms.
+            Program-based eligibility is one of the most common reasons people qualify.
+            It works because your household already participates in a recognized assistance program.
+            If you have a benefits letter or proof of participation, your eligibility story is usually straightforward.
           </p>
           <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Monthly discount for eligible households, typically applied to phone or internet service.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Higher support may be available for qualifying Tribal lands under program rules.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Many providers require regular usage. A common requirement is at least one use within a 30 day period.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Eligibility is generally one benefit per household, with verification requirements.</span></li>
+            <li><span class="icon">✓</span><span><b>SNAP</b> and <b>Medicaid</b> are among the most common qualifying signals.</span></li>
+            <li><span class="icon">✓</span><span><b>SSI</b> and other disability-related support can qualify in many cases.</span></li>
+            <li><span class="icon">✓</span><span><b>Federal Public Housing</b> participation can qualify under assistance rules.</span></li>
+            <li><span class="icon">✓</span><span><b>WIC</b> can qualify in many situations when documentation is clear.</span></li>
+            <li><span class="icon">✓</span><span>Some <b>Veterans benefits</b> may support eligibility depending on rules and documentation.</span></li>
           </ul>
-          <div class="note" style="margin-top:12px">
-            Source link (official): <a href="https://www.fcc.gov/lifeline-consumers" target="_blank" rel="noopener">FCC Lifeline consumer information</a>
+          <div class="rule">
+            <b>Document tip:</b> A clear benefits letter that shows your name and the program is often the fastest proof to process.
           </div>
         </div>
 
-        <div class="card">
-          <h3>Public housing: ConnectHomeUSA and local digital inclusion</h3>
+        <div class="box">
+          <h3>Income-based eligibility</h3>
           <p>
-            Some households in HUD-assisted communities can access device support and digital skills programs through local partners.
-            Availability depends on your housing authority and your city. These programs can help with internet access, training, and sometimes device support through local initiatives.
+            Income-based eligibility exists for households that may not be enrolled in a qualifying program but still meet income requirements.
+            This pathway often depends on clean documentation and consistent household information.
+            It can work well when paperwork is readable and matches your address and identity.
           </p>
           <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Local partners may help with enrollment support, device access, or digital literacy training.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Eligibility is tied to housing status and local availability, not a universal nationwide device program.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Often works alongside Lifeline for service affordability.</span></li>
+            <li><span class="icon">✓</span><span>Income proof must be readable and match the household details you submit.</span></li>
+            <li><span class="icon">✓</span><span>Household size matters because income limits are based on the household.</span></li>
+            <li><span class="icon">✓</span><span>Clear photos reduce delays. Blurry uploads often trigger re-submission requests.</span></li>
+            <li><span class="icon">✓</span><span>If information conflicts, verification can slow down. Consistency matters.</span></li>
           </ul>
-          <div class="divider"></div>
-          <h3 style="margin:0 0 8px">Veterans: VA Telehealth support pathways</h3>
-          <p>
-            For eligible Veterans, telehealth programs can help support access to virtual care.
-            In some cases, local VA facilities and partners can assist with connectivity and device access related to healthcare needs.
-            Availability depends on eligibility, care needs, and local support.
-          </p>
-          <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Focused on healthcare access, virtual visits, and continuity of care.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Device support is not a guaranteed entitlement and depends on local resources and clinical need.</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="eligibility" aria-label="Eligibility guide">
-      <div class="sectionHead">
-        <div>
-          <h2>Eligibility in 2026: What Usually Qualifies You</h2>
-          <p class="subhead">Clear explanations for families, seniors, students, veterans, and households on benefits</p>
-        </div>
-      </div>
-
-      <div class="panel">
-        <div class="panelPad">
-          <p class="lead" style="margin-top:0">
-            Most people search for a <strong>free government tablet</strong> because they need a device for school, telehealth, job search, or basic communication.
-            The most reliable eligibility path in 2026 is still based on a simple idea: you qualify because you already meet a recognized requirement, not because you found a viral ad.
-          </p>
-
-          <div class="grid2" style="margin-top:14px">
-            <div class="card">
-              <h3>Program-based qualification</h3>
-              <p>
-                Program-based eligibility means you already receive benefits through an approved assistance program.
-                This is often the fastest path because your proof is straightforward.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span><strong>SNAP (EBT / Food Stamps)</strong> and <strong>Medicaid</strong> are common qualifying programs.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span><strong>SSI</strong> or other disability-related support can qualify in many cases.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span><strong>Federal Public Housing</strong> households often qualify under assistance rules.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span><strong>Veterans pension</strong> or related benefits can support eligibility depending on program rules.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span><strong>WIC</strong> can qualify in many states when documentation is clear.</span></li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Income-based qualification</h3>
-              <p>
-                Income-based eligibility is for households that meet income requirements even if they are not enrolled in a qualifying program.
-                You usually need documentation that shows your household income and household size.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Pay stubs, tax returns, or benefit letters can serve as proof, depending on your situation.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Household size matters because eligibility often depends on how many people are in the home.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Clear scans or photos reduce delays and requests for re-submission.</span></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="divider"></div>
-
-          <h3 style="margin:0 0 8px">The most important truth for 2026</h3>
-          <p class="lead" style="margin:0">
-            Lifeline is a service support program, and the device part is usually a provider offer.
-            That is why two people in different states can both qualify for Lifeline but see different device options.
-            Provider inventory changes, promotions change, and terms change.
-            A trustworthy site will tell you that upfront.
-          </p>
-
-          <div class="divider"></div>
-
-          <h3 style="margin:0 0 8px">What “free” can look like</h3>
-          <p class="lead" style="margin:0">
-            In 2026, “free tablet” can mean one of these realistic outcomes:
-          </p>
-          <ul class="list" style="margin-top:10px">
-            <li><span class="tick" aria-hidden="true">✓</span><span><strong>Service-first offers:</strong> you enroll in Lifeline service, then choose a device upgrade option depending on provider stock.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span><strong>Discounted device offers:</strong> you qualify, then a tablet is offered at a reduced cost due to provider terms or local support.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span><strong>Partner programs:</strong> local digital inclusion partners may support devices for school or telehealth access.</span></li>
-          </ul>
-
-          <p class="lead" style="margin:14px 0 0">
-            If any website promises “free iPad for everyone” or asks for a fee before eligibility review, treat it as a warning sign.
-          </p>
-
-          <div class="note" style="margin-top:12px">
-            Official verification link: <a href="https://www.usac.org/lifeline/national-verifier/" target="_blank" rel="noopener">USAC National Verifier (Lifeline)</a>
+          <div class="rule">
+            <b>Simple rule:</b> Clear proof plus matching details equals fewer delays.
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="states" aria-label="States guidance">
-      <div class="sectionHead">
-        <div>
-          <h2>States and Coverage</h2>
-          <p class="subhead">Why state rules and provider availability change what you see</p>
-        </div>
-      </div>
-
-      <div class="grid2">
-        <div class="card">
-          <h3>All states have Lifeline access</h3>
-          <p>
-            Lifeline is nationwide, but the way you apply can vary.
-            Some applicants apply through an official eligibility verification flow first, while others use a provider-assisted process that still relies on official verification.
-            This is why your friend in one state may see a different provider list than your household.
-          </p>
-          <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Provider coverage differs by state and even by zip code.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Device offers are not identical everywhere because inventory is managed by providers.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Local digital inclusion partners exist in many cities and counties, often tied to public housing or community programs.</span></li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h3>Top participation areas (general)</h3>
-          <p>
-            Participation is higher in large-population states and in areas with stronger provider coverage.
-            The biggest factor for your results is not the state name itself, it is whether a participating provider serves your area and what inventory they have at that moment.
-          </p>
-          <div class="badgeRow" aria-label="Example high participation states">
-            <span class="badge">California</span>
-            <span class="badge">Texas</span>
-            <span class="badge">New York</span>
-            <span class="badge">Florida</span>
-            <span class="badge">Illinois</span>
-            <span class="badge">Pennsylvania</span>
-            <span class="badge">Ohio</span>
-            <span class="badge">Georgia</span>
-            <span class="badge">North Carolina</span>
-            <span class="badge">Michigan</span>
-          </div>
-          <div class="divider"></div>
-          <p class="lead" style="margin:0">
-            The best approach is to follow the verified steps below, so your application is clean, accurate, and not delayed by missing proof.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="devices" aria-label="Device expectations">
-      <div class="sectionHead">
-        <div>
-          <h2>What Devices You May See</h2>
-          <p class="subhead">Realistic device expectations for free tablets in 2026</p>
-        </div>
-      </div>
-
-      <div class="panel">
-        <div class="panelPad">
-          <p class="lead" style="margin-top:0">
-            Providers commonly offer Android-based tablets because they are affordable to support at scale and work well for school portals, video calls, and basic apps.
-            Models can change weekly based on inventory. If you are applying for a <strong>free government tablet</strong>, focus on eligibility and provider terms first, then evaluate the device you are offered.
-          </p>
-
-          <div class="grid2" style="margin-top:14px">
-            <div class="card">
-              <h3>Common device categories</h3>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Android tablets are most common.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Samsung Galaxy Tab models may appear depending on stock and promotions.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Refurbished tablets can be offered under certain inventory programs.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Low-cost upgrade offers may be available for higher storage or better screens.</span></li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Important notes about iPads</h3>
-              <ul class="list">
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>iPads are not guaranteed and are not a standard Lifeline benefit.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>“Free iPad for everyone” ads are a common scam pattern.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>If an offer is real, it is usually limited, refurbished, and tied to strict terms.</span></li>
-              </ul>
-              <div class="divider"></div>
-              <p class="lead" style="margin:0">
-                A trustworthy provider will disclose the model and terms before finalizing any device-related charge or upgrade.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="providers" aria-label="Providers section">
-      <div class="sectionHead">
-        <div>
-          <h2>Verified Providers People Commonly Search For</h2>
-          <p class="subhead">Provider availability depends on your state and area</p>
-        </div>
-      </div>
-
-      <div class="grid2">
-        <div class="card">
-          <h3>Examples of well-known Lifeline brands</h3>
-          <p>
-            These brands are commonly searched by applicants looking for a free tablet or a free government tablet.
-            Availability, device offers, and terms vary. Always confirm directly through official verification steps and provider disclosures.
-          </p>
-          <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Assurance Wireless</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>AirTalk Wireless</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>SafeLink Wireless</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>TruConnect</span></li>
-          </ul>
-          <p class="small">
-            Note: This page lists common searches. It does not claim every provider offers a tablet in every state at all times.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>What to expect from provider offers</h3>
-          <p>
-            A legitimate provider offer will follow verification rules and will not pressure you to share sensitive data.
-            You should expect clear disclosure of what is included, what is optional, and what costs exist, if any.
-          </p>
-          <ul class="list">
-            <li><span class="tick" aria-hidden="true">✓</span><span>Eligibility verification through recognized processes.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Clear terms about service, data, and device options.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Transparent device inventory and realistic shipping timelines.</span></li>
-            <li><span class="tick" aria-hidden="true">✓</span><span>Support options for fixing document issues or correcting application details.</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="scams" aria-label="Scam prevention section">
-      <div class="sectionHead">
-        <div>
-          <h2>Scam Prevention and Security</h2>
-          <p class="subhead">Protect yourself from fake “free tablet” offers</p>
-        </div>
-      </div>
-
-      <div class="panel">
-        <div class="panelPad">
-          <p class="lead" style="margin-top:0">
-            Scam sites and social media posts often target households that use SNAP, Medicaid, or other benefits.
-            They know people are searching for a <strong>free tablet</strong>, and they use urgency to trick you into sharing private information.
-            A real program will verify eligibility and explain terms clearly.
-          </p>
-
-          <div class="grid2" style="margin-top:14px">
-            <div class="card">
-              <h3>Red flags to watch for</h3>
-              <ul class="list">
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>They ask for your EBT PIN or debit card PIN.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>They ask for a credit card for a “guaranteed” tablet before review.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>They demand an upfront fee before eligibility is verified.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>They promise a free iPad for everyone with no verification.</span></li>
-                <li><span class="warnIcon" aria-hidden="true">!</span><span>They pressure you to act fast via text message or social media DMs.</span></li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>What legitimate offers do</h3>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Verify eligibility using accepted documentation and official verification rules.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Explain provider terms clearly before you submit sensitive documents.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Never require your EBT PIN to claim a device offer.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Provide a path to fix rejected documents instead of demanding money.</span></li>
-              </ul>
-              <div class="divider"></div>
-              <p class="lead" style="margin:0">
-                Your safety rule: <strong>Never share your EBT PIN</strong>, your bank PIN, or your debit PIN to claim a tablet offer.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="box" style="margin-top:14px">
+        <h3>What “one benefit per household” means</h3>
+        <p>
+          Many people get confused here. “Household” is not the same as “person.”
+          Household rules exist to prevent duplicate benefits at the same address.
+          In practical terms, the system expects one primary affordability benefit per household, with verification designed to stop duplicates.
+          If your household already has a Lifeline benefit through another provider, you may need to transfer or update rather than apply as if you are new.
+          If you are not sure, keep your information accurate and follow official verification steps.
+        </p>
+        <div class="divider"></div>
+        <p style="margin:0; color:var(--muted)">
+          The most common reason people feel “denied” is not that they are not eligible. It is because the verification system detects a mismatch, a duplicate household benefit, or unclear documents.
+          Fixing the mismatch with clean proof is often the real solution.
+        </p>
       </div>
     </section>
 
     <section id="apply" aria-label="How to apply section">
-      <div class="sectionHead">
+      <div class="head">
         <div>
-          <h2>How to Apply in 2026</h2>
-          <p class="subhead">Step-by-step application guide that reduces delays</p>
+          <h2>How to Apply Safely in 2026</h2>
+          <p class="sub">Step-by-step process that protects your information</p>
         </div>
       </div>
 
-      <div class="panel">
-        <div class="panelPad">
-          <p class="lead" style="margin-top:0">
-            This is the cleanest path most applicants can follow when trying to get a <strong>free government tablet</strong> offer in 2026.
-            The goal is to get eligibility confirmed, choose a participating provider that serves your area, and submit documents in a way that avoids common rejections.
-          </p>
+      <div class="box">
+        <p class="lead" style="margin:0">
+          If you want the safest route to a free tablet outcome, treat the application process as a verified benefits process.
+          Your goal is not to chase the most exciting claim. Your goal is to complete verification, choose a provider that actually serves your area, and confirm terms before you submit personal documents.
+          That is how real approvals happen in 2026.
+        </p>
 
-          <div class="grid2" style="margin-top:14px">
-            <div class="card">
-              <h3>Step 1: Choose your eligibility path</h3>
-              <p>
-                Decide whether you are applying with program participation proof or income proof.
-                Program-based proof is often simpler. Income proof can work when it is well documented.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>If you have SNAP or Medicaid, your benefit proof is often straightforward.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>If you apply by income, use clear documentation that matches your name and address.</span></li>
-              </ul>
-            </div>
+        <div class="divider"></div>
 
-            <div class="card">
-              <h3>Step 2: Prepare documents the right way</h3>
-              <p>
-                Document quality is one of the biggest reasons applications get delayed.
-                Clear photos, readable text, and matching information reduce the chance of re-submission.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Use bright light, no shadows, and show the full document.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Make sure your name is spelled the same across documents.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Do not crop out dates, program names, or the agency logo on benefit proof.</span></li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Step 3: Complete eligibility verification</h3>
-              <p>
-                Eligibility is typically verified through official processes.
-                Some providers offer assisted enrollment, but verification still relies on recognized rules and documentation.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Submit proof carefully and double-check before final upload.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>If you are asked to fix a document, it usually means the photo was unclear or information did not match.</span></li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Step 4: Select a participating provider</h3>
-              <p>
-                After eligibility is confirmed, choose a provider that serves your area and has terms you understand.
-                Tablet inventory can change quickly, so focus on transparent terms, not unrealistic device promises.
-              </p>
-              <ul class="list">
-                <li><span class="tick" aria-hidden="true">✓</span><span>Confirm the service plan details and any device-related charge, if applicable.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Ask whether the offer is service-first and whether a tablet is part of the current promotion.</span></li>
-                <li><span class="tick" aria-hidden="true">✓</span><span>Keep copies of confirmation pages and emails for tracking.</span></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="divider"></div>
-
-          <h3 style="margin:0 0 8px">After you are approved: keep your benefit active</h3>
-          <p class="lead" style="margin:0">
-            Once enrolled, providers commonly require regular use.
-            Many follow a simple rule: use your service at least once within a 30 day period.
-            If the line stays inactive, service can be de enrolled under provider and program rules.
-            If you move or change contact information, update your provider so your account stays accurate.
-          </p>
-
-          <div class="divider"></div>
-
-          <h3 style="margin:0 0 8px">Tracking and timelines</h3>
-          <p class="lead" style="margin:0">
-            Shipping and activation timelines depend on provider processing and inventory.
-            If you are asked to re-submit documents, it usually means the file was blurry, incomplete, or did not match the application details.
-            Keep your confirmation information in one place so you can track status without repeating steps.
-          </p>
-
-          <div class="divider"></div>
-
-          <div class="card">
-            <h3>Apply Now checklist</h3>
+        <div class="grid2">
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Step 1: Prepare documents before you click apply</h3>
             <p>
-              Use this quick checklist before you start:
+              The biggest time-waster is starting an application without documents ready.
+              Prepare a clear ID and one eligibility proof set before you begin.
+              Make sure your name is consistent across documents.
+              If your address changed recently, be ready to provide proof of address that matches the application.
             </p>
             <ul class="list">
-              <li><span class="tick" aria-hidden="true">✓</span><span>Identity document ready (clear and readable).</span></li>
-              <li><span class="tick" aria-hidden="true">✓</span><span>Benefit proof or income proof ready with visible dates and your name.</span></li>
-              <li><span class="tick" aria-hidden="true">✓</span><span>Correct home address and contact info that matches your documents.</span></li>
-              <li><span class="tick" aria-hidden="true">✓</span><span>Time set aside to complete verification without rushing.</span></li>
-              <li><span class="tick" aria-hidden="true">✓</span><span>Awareness of scams: never share an EBT PIN or pay for “guaranteed approval.”</span></li>
+              <li><span class="icon">✓</span><span>Use bright lighting. Include the full page. Avoid shadows.</span></li>
+              <li><span class="icon">✓</span><span>Do not crop out program names, dates, or agency information.</span></li>
+              <li><span class="icon">✓</span><span>Check spelling of your name across all documents.</span></li>
             </ul>
-            <div class="btnRow" style="margin-top:14px">
-              <a class="btn primary" href="#checker">Re-check Eligibility</a>
-              <a class="btn" href="#faq">Read FAQs</a>
-            </div>
+          </div>
+
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Step 2: Verify eligibility through official rules</h3>
+            <p>
+              Legitimate verification is not a secret shortcut.
+              It is a rules-based process that checks your eligibility and household status.
+              Some providers offer assisted enrollment, but the verification is still tied to recognized eligibility rules.
+              If a page tries to bypass verification entirely, it is not legitimate.
+            </p>
+            <ul class="list">
+              <li><span class="icon">✓</span><span>Expect verification steps and eligibility questions.</span></li>
+              <li><span class="icon">✓</span><span>Expect to upload proof in a secure form, not by random text message.</span></li>
+              <li><span class="icon warn">!</span><span>Never share an EBT PIN. It is not part of verification.</span></li>
+            </ul>
+          </div>
+
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Step 3: Choose a provider by coverage, not by hype</h3>
+            <p>
+              Device inventory changes. Promotions change. Even the same provider can offer different device options at different times.
+              Choose providers based on whether they serve your zip code, whether terms are clearly disclosed, and whether support is available if you need to fix documents.
+            </p>
+            <ul class="list">
+              <li><span class="icon">✓</span><span>Confirm service details and device terms before you finalize.</span></li>
+              <li><span class="icon">✓</span><span>Keep screenshots of confirmation pages and emails.</span></li>
+              <li><span class="icon">✓</span><span>Read the disclosed terms for upgrades, shipping, and activation.</span></li>
+            </ul>
+          </div>
+
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Step 4: Understand what “approval” includes</h3>
+            <p>
+              Approval usually means your eligibility is confirmed for the affordability benefit.
+              A tablet offer, if available, is tied to provider inventory and terms.
+              Some offers are service-first where the device is an option after enrollment.
+              Some offers are discounted device options. Some areas have local partner support.
+            </p>
+            <ul class="list">
+              <li><span class="icon">✓</span><span>Expect Android tablets most often, not guaranteed iPads.</span></li>
+              <li><span class="icon bad">!</span><span>Any “free iPad for everyone” claim is a high-risk sign.</span></li>
+              <li><span class="icon">✓</span><span>Focus on transparent terms and verified steps.</span></li>
+            </ul>
           </div>
         </div>
+
+        <div class="divider"></div>
+
+        <p class="lead" style="margin:0">
+          If you want a clear application route that is built around 2026 reality, use this page:
+          <a href="https://www.freetablet.online/" target="_blank" rel="noopener"><b>free tablet</b></a>.
+          It is designed for people who want a practical path, eligibility-first steps, and scam-safe rules.
+        </p>
       </div>
     </section>
 
-    <section id="stories" aria-label="Success stories">
-      <div class="sectionHead">
+    <section id="devices" aria-label="Devices section">
+      <div class="head">
         <div>
-          <h2>Realistic Success Stories</h2>
-          <p class="subhead">What “approved” often looks like for real households</p>
+          <h2>What Devices You May See in 2026</h2>
+          <p class="sub">Realistic expectations that match how inventory works</p>
         </div>
       </div>
 
       <div class="grid2">
-        <div class="card">
-          <h3>Senior telehealth needs</h3>
+        <div class="box">
+          <h3>Most common outcomes</h3>
           <p>
-            “I needed a tablet for telehealth and talking with my grandkids. I qualified through Medicaid, uploaded my documents, and got approved after I fixed my paperwork.
-            The biggest difference was learning what was real in 2026 and what was just an outdated ACP ad.”
+            Most legitimate tablet offers in 2026 focus on basic devices that support everyday needs like school portals, video calls, telehealth apps, and job search.
+            Android tablets are common because they are affordable to support at scale and work with most essential apps.
+            Some offers include refurbished devices depending on inventory programs.
           </p>
-          <p class="small">Example scenario: Medicaid-based eligibility with a provider offer</p>
+          <ul class="list">
+            <li><span class="icon">✓</span><span>Android tablets are most common.</span></li>
+            <li><span class="icon">✓</span><span>Brand and model can change weekly based on stock.</span></li>
+            <li><span class="icon">✓</span><span>Some offers are upgrades or discounted device options.</span></li>
+          </ul>
         </div>
 
-        <div class="card">
-          <h3>Public housing student support</h3>
+        <div class="box">
+          <h3>iPad claims and why they are risky</h3>
           <p>
-            “I live in public housing and needed a basic tablet for my daughter’s school work.
-            Once I had my documents ready and stopped chasing social media promises, I understood the steps and applied in a clean way.”
+            People search for iPads because they are popular and familiar.
+            The problem is that scammers know that. They use iPad promises to pull people into fake forms and payment traps.
+            In 2026, iPads are not a standard benefit, not guaranteed, and not a promise a legitimate site should make.
           </p>
-          <p class="small">Example scenario: public housing digital inclusion plus Lifeline service affordability</p>
+          <ul class="list">
+            <li><span class="icon bad">!</span><span>“Free iPad for everyone” is a common scam pattern.</span></li>
+            <li><span class="icon bad">!</span><span>Any page demanding payment before verification is not trustworthy.</span></li>
+            <li><span class="icon warn">!</span><span>Any page asking for an EBT PIN is not legitimate.</span></li>
+          </ul>
         </div>
-
-        <div class="card">
-          <h3>Income-based eligibility</h3>
-          <p>
-            “I did not have SNAP, but my income met the requirements and my documentation was clear.
-            The first time I applied I sent a blurry photo. The second time I sent clean documents and it moved forward.”
-          </p>
-          <p class="small">Example scenario: income documentation and corrected upload</p>
-        </div>
-
-        <div class="card">
-          <h3>Veteran support pathway</h3>
-          <p>
-            “As a veteran on a fixed income, I did not know Lifeline applied to me.
-            Once I verified eligibility and followed the steps, I was able to choose a provider option available in my area.”
-          </p>
-          <p class="small">Example scenario: veterans benefit awareness plus Lifeline eligibility verification</p>
-        </div>
-      </div>
-
-      <div class="note" style="margin-top:14px">
-        These stories are examples of common applicant experiences. Device models, timing, and provider offers vary by location and inventory.
       </div>
     </section>
 
-    <section id="faq" aria-label="Frequently asked questions">
-      <div class="sectionHead">
+    <section id="scams" aria-label="Scam warning section">
+      <div class="head">
+        <div>
+          <h2>Scam Warning First</h2>
+          <p class="sub">How fake free tablet offers trap people in 2026</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <p class="lead" style="margin:0">
+          Scam prevention is not an extra. It is the first step.
+          In 2026, scammers target households that receive benefits because those households are actively searching for help.
+          They use urgency, “limited funding” pressure, and big device promises to get you to share private information.
+          The safest mindset is simple: verification is normal, secrecy is not, and PIN requests are always a red flag.
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="grid2">
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Red flags</h3>
+            <ul class="list">
+              <li><span class="icon bad">!</span><span>They ask for your EBT PIN or debit PIN.</span></li>
+              <li><span class="icon bad">!</span><span>They promise a free iPad for everyone with no verification.</span></li>
+              <li><span class="icon bad">!</span><span>They demand a “guarantee fee” before eligibility review.</span></li>
+              <li><span class="icon bad">!</span><span>They pressure you to apply through a social media DM link.</span></li>
+              <li><span class="icon bad">!</span><span>They refuse to show terms until after you pay.</span></li>
+            </ul>
+          </div>
+
+          <div class="box" style="box-shadow:none; border-color:var(--line)">
+            <h3>Legitimate behavior</h3>
+            <ul class="list">
+              <li><span class="icon">✓</span><span>They use verification and explain why proof is needed.</span></li>
+              <li><span class="icon">✓</span><span>They disclose terms before you finalize any step.</span></li>
+              <li><span class="icon">✓</span><span>They never request an EBT PIN or bank PIN.</span></li>
+              <li><span class="icon">✓</span><span>They provide a clear way to fix document issues.</span></li>
+              <li><span class="icon">✓</span><span>They avoid guaranteed device claims and focus on eligibility and availability.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rule">
+          <b>Your safety rule:</b> Never share an EBT PIN, debit PIN, or bank PIN to get a tablet. If a page asks, close it.
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" aria-label="FAQ section">
+      <div class="head">
         <div>
           <h2>Frequently Asked Questions</h2>
-          <p class="subhead">Straight answers for free tablets and free government tablets in 2026</p>
+          <p class="sub">Fast answers for free tablet searches in 2026</p>
         </div>
       </div>
 
       <details>
         <summary>Is ACP still active in 2026?</summary>
         <p>
-          No. ACP ended in June 2024. If you see a website claiming ACP is active, treat it as outdated or misleading.
-          In 2026, Lifeline is the main active federal discount program for phone or internet service.
+          No. ACP ended in June 2024. In 2026, Lifeline is the main active federal affordability program for phone or internet service.
+          Tablet offers, when available, are provider offers or local partner support and are not ACP benefits.
         </p>
       </details>
 
       <details>
-        <summary>What does “free government tablet” really mean in 2026?</summary>
+        <summary>What does “free tablet” really mean in 2026?</summary>
         <p>
-          It usually means you qualify for an active pathway like Lifeline, and a participating provider or local partner may offer a tablet at no cost or at a reduced cost.
-          The federal government does not send tablets directly to every low-income household.
+          It usually means you qualify through a verified eligibility path and a provider or local partner may offer a tablet at no cost or reduced cost depending on inventory and terms.
+          The federal government does not mail tablets directly to every low-income household.
         </p>
       </details>
 
       <details>
-        <summary>Can I get both a free phone and a free government tablet?</summary>
+        <summary>Do legitimate applications ask for an EBT PIN?</summary>
         <p>
-          Lifeline is generally limited to one benefit per household. Some providers may offer different device options over time.
-          Expect one primary Lifeline supported service line per household, with device availability based on provider terms.
+          No. A legitimate process does not require an EBT PIN. Never share it.
         </p>
       </details>
 
       <details>
-        <summary>Are free iPads available through government programs?</summary>
+        <summary>Are free iPads guaranteed?</summary>
         <p>
-          iPads are not guaranteed. Promises like “free iPad for everyone” are a common scam signal.
-          When iPads appear, they are typically limited, refurbished, and tied to special promotions rather than a standard benefit.
+          No. iPads are not guaranteed. “Free iPad for everyone” claims are a common scam sign.
         </p>
       </details>
 
       <details>
-        <summary>What if my tablet breaks?</summary>
+        <summary>Why do device options change by state?</summary>
         <p>
-          Repair and replacement policies depend on the provider and the device terms.
-          Many offers treat the device as a limited inventory item and may offer troubleshooting support rather than guaranteed replacement.
-          Always review the provider policy for damage, defects, and warranty conditions.
+          Provider coverage and inventory differ by zip code and state. Even within the same state, offers can change by location and time.
+          Eligibility verification may be similar, but device availability depends on provider terms and stock.
         </p>
       </details>
 
       <details>
-        <summary>Do I need to use the service after I get approved?</summary>
+        <summary>What is the cleanest next step if I want to apply?</summary>
         <p>
-          Yes. Providers often require regular activity to keep service active.
-          A common rule is at least one use within a 30 day period. If the line stays inactive, service can be de enrolled.
-        </p>
-      </details>
-
-      <details>
-        <summary>How long does shipping take after approval?</summary>
-        <p>
-          It varies by provider, state, and inventory. Many applicants see fulfillment within about 7 to 10 business days after eligibility is confirmed, but it can be shorter or longer.
-        </p>
-      </details>
-
-      <details>
-        <summary>How can I track application status?</summary>
-        <p>
-          Keep your confirmation number, screenshots, and emails. Providers typically offer a status check through their support channels.
-          If documents are rejected, the fastest fix is usually to re-submit a clear, complete copy.
-        </p>
-      </details>
-
-      <details>
-        <summary>Are there any hidden fees or costs?</summary>
-        <p>
-          Eligibility checks should be free. Some device offers may involve a one time device cost, shipping, or an upgrade fee depending on provider terms and inventory.
-          Legitimate offers disclose costs clearly before final submission.
-        </p>
-      </details>
-
-      <details>
-        <summary>Can I switch providers after enrollment?</summary>
-        <p>
-          In many cases, you can transfer your Lifeline benefit, but timing rules and eligibility confirmations can apply.
-          Always review transfer rules and keep your account active during transitions.
+          Use a verification-first path and follow scam-safe rules. If you want an application-focused guide, go here:
+          <a href="https://www.freetablet.online/" target="_blank" rel="noopener"><b>free tablet</b></a>.
         </p>
       </details>
     </section>
@@ -1269,115 +954,93 @@
 
   <footer aria-label="Site footer">
     <div class="wrap">
-      <div class="footGrid">
+      <div class="foot">
         <div>
-          <p class="footTitle">FreeTablet.online</p>
-          <p class="footText">
-            Helping Americans understand real programs for free and discounted government tablets in 2026.
-            This is a one-page informational guide focused on Lifeline, public housing digital inclusion pathways, veteran telehealth access, and scam prevention.
+          <h3>Lifeline Tablet Guide</h3>
+          <p>
+            Independent informational guide for US households searching for free tablet options in 2026.
+            This page focuses on verification-first steps, scam-safe behavior, and realistic expectations after ACP ended.
           </p>
 
-          <div class="badgeRow" aria-label="Editorial and trust badges">
-            <span class="badge">Fact-focused and updated</span>
-            <span class="badge">Scam warning first</span>
-            <span class="badge">No EBT PIN ever required</span>
-            <span class="badge">Independent resource</span>
-          </div>
-
           <div class="legal" aria-label="Legal disclaimer">
-            <b>Legal Disclaimer:</b>
-            This website is an independent informational resource created to help consumers understand programs that may reduce the cost of phone or internet service and help them find tablet-related offers from participating providers.
-            We are not the U.S. Government. We are not affiliated with the FCC, USAC, or any federal or state agency.
-            We do not approve applications, issue benefits, or guarantee device availability.
-            Program rules, provider participation, device inventory, and eligibility requirements can change.
-            Always confirm details with official program websites and participating providers before submitting personal documents.
+            <b>Legal disclaimer:</b> This website is an independent informational resource. It is not the US Government and is not affiliated with the FCC, USAC, or any federal or state agency.
+            This page does not approve applications, issue benefits, or guarantee device availability. Provider participation, rules, and inventory can change.
+            Always verify details through official sources and disclosed provider terms.
           </div>
 
-          <div class="copyright">
-            © 2026 FreeTablet.online. All rights reserved.
-          </div>
+          <div class="copy">© 2026 Lifeline Guides. All rights reserved.</div>
         </div>
 
         <div>
-          <p class="footTitle">Official Resources</p>
-          <p class="footText">Use official sources for verification and program rules.</p>
-          <div class="footLinks" aria-label="Official resource links">
-            <a href="https://www.fcc.gov/lifeline-consumers" target="_blank" rel="noopener">FCC Lifeline (Official)</a>
-            <a href="https://www.usac.org/lifeline/national-verifier/" target="_blank" rel="noopener">USAC National Verifier (Official)</a>
+          <h3>Important links</h3>
+          <p>Application-focused guide:</p>
+          <div class="links" aria-label="Footer links">
+            <a href="https://www.freetablet.online/" target="_blank" rel="noopener">free tablet</a>
+            <a href="#checker">Eligibility Checker</a>
           </div>
-
-          <div class="divider"></div>
-
-          <p class="footTitle">On-page SEO included</p>
-          <p class="footText">
-            Canonical tag, structured schemas (Organization, WebSite, WebPage, HowTo, FAQPage), and keyword-aligned headings are already included in this single file.
-          </p>
         </div>
       </div>
     </div>
   </footer>
 
   <script>
-    // Simple 5-question eligibility checker (privacy-friendly, on-page only)
     const questions = [
       {
-        text: "Does anyone in your household participate in SNAP (Food Stamps) or Medicaid?",
-        help: "Many applicants qualify through program participation. This is one of the most common eligibility signals for Lifeline in 2026."
+        t: "Does anyone in your household participate in SNAP (Food Stamps) or Medicaid?",
+        h: "Program participation is a common eligibility signal for Lifeline-based affordability paths in 2026."
       },
       {
-        text: "Does anyone in your household receive SSI, Federal Public Housing support, WIC, or a qualifying Veterans benefit (such as pension support)?",
-        help: "If you have a benefit letter or proof of participation, it often strengthens your eligibility case."
+        t: "Does anyone in your household receive SSI, WIC, or Federal Public Housing support?",
+        h: "These are common qualifying signals when your proof documents are clear and match your household details."
       },
       {
-        text: "Are you able to provide a clear ID and proof documents (benefit proof or income proof) with your name visible?",
-        help: "Document quality is a top reason applications get delayed. Clear proof usually speeds up review."
+        t: "Can you provide a clear ID and proof documents that show your name?",
+        h: "Clear, readable documents reduce delays. Blurry uploads often trigger re-submission requests."
       },
       {
-        text: "Do you live on Tribal lands or qualify for Tribal support rules?",
-        help: "Tribal Lifeline support can be higher under program rules. This helps estimate your potential benefit level."
+        t: "Is your household already using a Lifeline benefit with another provider?",
+        h: "Household rules often allow one benefit per household. If you already have Lifeline, you may need a transfer or update rather than a new application."
       },
       {
-        text: "Are you comfortable following scam-safe steps (never sharing an EBT PIN and only using official verification pathways)?",
-        help: "This helps protect your identity and benefits while applying for a free tablet or discounted government tablet offer."
+        t: "Will you follow scam-safe rules (never sharing an EBT PIN and avoiding payment-before-verification offers)?",
+        h: "This keeps your benefits and identity protected while you apply."
       }
     ];
 
-    let idx = 0;
-    const answers = [];
+    let i = 0;
+    const a = [];
 
     const qNum = document.getElementById("qNum");
-    const qLabel = document.getElementById("qLabel");
+    const qText = document.getElementById("qText");
+    const qHelp = document.getElementById("qHelp");
+    const backBtn = document.getElementById("backBtn");
     const barFill = document.getElementById("barFill");
     const pct = document.getElementById("pct");
-    const questionText = document.getElementById("questionText");
-    const questionHelp = document.getElementById("questionHelp");
-    const backBtn = document.getElementById("backBtn");
 
     const resultBox = document.getElementById("resultBox");
-    const resultTitle = document.getElementById("resultTitle");
-    const resultText = document.getElementById("resultText");
-    const resultNote = document.getElementById("resultNote");
+    const rTitle = document.getElementById("rTitle");
+    const rText = document.getElementById("rText");
+    const rNote = document.getElementById("rNote");
 
-    function setProgress() {
-      const progress = Math.round((idx / questions.length) * 100);
-      barFill.style.width = progress + "%";
-      pct.textContent = progress + "%";
-      qLabel.textContent = idx === 0 ? "Start" : "In progress";
+    function progress() {
+      const p = Math.round((i / questions.length) * 100);
+      barFill.style.width = p + "%";
+      pct.textContent = p + "%";
     }
 
     function render() {
       resultBox.style.display = "none";
-      questionText.textContent = questions[idx].text;
-      questionHelp.textContent = questions[idx].help;
-      qNum.textContent = (idx + 1).toString();
-      backBtn.disabled = idx === 0;
-      setProgress();
+      qNum.textContent = String(i + 1);
+      qText.textContent = questions[i].t;
+      qHelp.textContent = questions[i].h;
+      backBtn.disabled = i === 0;
+      progress();
     }
 
-    function answer(val) {
-      answers[idx] = val;
-      if (idx < questions.length - 1) {
-        idx += 1;
+    function answer(v) {
+      a[i] = v;
+      if (i < questions.length - 1) {
+        i += 1;
         render();
       } else {
         showResult();
@@ -1385,57 +1048,46 @@
     }
 
     function back() {
-      if (idx > 0) {
-        idx -= 1;
+      if (i > 0) {
+        i -= 1;
         render();
       }
     }
 
     function resetChecker() {
-      idx = 0;
-      answers.length = 0;
+      i = 0;
+      a.length = 0;
       barFill.style.width = "0%";
       pct.textContent = "0%";
       render();
     }
 
     function showResult() {
-      // Score based on answers
       let score = 0;
-      for (const a of answers) score += a ? 1 : 0;
+      for (const v of a) score += v ? 1 : 0;
 
-      // Update progress to 100%
       barFill.style.width = "100%";
       pct.textContent = "100%";
-      qLabel.textContent = "Complete";
 
       resultBox.style.display = "block";
 
       if (score >= 4) {
-        resultTitle.textContent = "Likely eligible to qualify for Lifeline-based tablet offers";
-        resultText.textContent =
-          "Based on your answers, you have strong signals that usually match Lifeline eligibility pathways in 2026. Next, follow the application steps below, prepare clear documents, and only use official verification routes. Tablet availability still depends on provider inventory and terms.";
-        resultNote.textContent =
-          "Reminder: Eligibility checking is free. Legitimate programs do not ask for an EBT PIN, bank PIN, or guaranteed-fee payment.";
+        rTitle.textContent = "Strong signals for a verified eligibility path";
+        rText.textContent = "Your answers show strong signals that often align with a verified eligibility route. Next steps: prepare clear documents, follow verification-first steps, and avoid any offer that asks for an EBT PIN or payment before verification.";
+        rNote.textContent = "Device availability still depends on provider coverage and inventory, so focus on transparency and verified steps.";
       } else if (score === 3) {
-        resultTitle.textContent = "Possible eligibility, documents and verification matter";
-        resultText.textContent =
-          "Based on your answers, you may qualify, but your documentation and verification path will make a big difference. Follow the application steps, submit clear proof, and confirm eligibility through official verification. Device offers vary by provider and location.";
-        resultNote.textContent =
-          "Focus on clean documents and scam-safe behavior. Avoid any site that claims ACP is active in 2026.";
+        rTitle.textContent = "Possible eligibility, document quality will matter";
+        rText.textContent = "Your answers show a possible eligibility path. Document clarity, matching details, and household status are usually the difference between fast progress and delays. Follow verification-first steps and stay scam-safe.";
+        rNote.textContent = "Avoid free iPad guarantees and any form that demands PINs.";
       } else {
-        resultTitle.textContent = "Not enough signals from this quick check";
-        resultText.textContent =
-          "Based on your answers, this quick check did not detect strong signals. You may still qualify through income-based eligibility or other qualifying criteria depending on your circumstances. Use the application steps to understand what proof you can provide and avoid scams.";
-        resultNote.textContent =
-          "This tool is informational only and does not make an official eligibility decision.";
+        rTitle.textContent = "Not enough signals from this quick check";
+        rText.textContent = "This quick check did not detect strong signals. You may still qualify through income-based eligibility or other criteria depending on your household. Focus on verification-first steps and avoid scams.";
+        rNote.textContent = "This checker is informational only and does not make an official decision.";
       }
 
-      // Scroll to result for visibility
       resultBox.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
-    // Initial render
     render();
   </script>
 </body>
